@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="logincss.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="header">
+                <div class="logo">
+                    <i class="fa fa-weibo" aria-hidden="true"></i>
+                <h1>Welcome.</h1>
+            </div>
+            <div class="section">
+                <div id="logindetails">
+                    <form action="#" class="sign-in-form">
+                        <input type="email" placeholder="User name" id="username">
+                        <input type="password" placeholder="Password" id="password">
+                    </form>
+                </div>
+                <input type="submit" value="Log in" name="login" onclick="loginFunction();">
+            </div>
+            <div id="footer">
+                <!--<p><a href="register.html">Sign up</a> for a new account</p>-->
+                
+                <a href="register.html">
+                    <button class="button"
+                    id="sign-up-button">Sign Up</button>
+                </a>
+            </div>
+        </div>
+        <script src="login_js.js"></script>
+    </body>
+</html>

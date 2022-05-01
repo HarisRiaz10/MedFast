@@ -1,0 +1,70 @@
+body{
+    background-color: #589ED9;
+}
+
+.container{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.logo{
+    color: white;
+    font-size: 50px;
+}
+
+h1{
+    color: white;
+    font-size: 30px;
+}
+
+#logindetails input{
+    background-color: white;
+    width: 100%;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    padding: 10px 0px;
+    text-indent: 25px;
+}
+
+.button{
+    font-family: sans-serif;
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #2186D4;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 15px;
+    padding: 14px 0px;
+    border-radius: 6px;
+}
+
+.section input[type="submit"]{
+    font-family: sans-serif;
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #2186D4;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 15px;
+    padding: 14px 0px;
+    border-radius: 6px;
+}
+
+#footer p{
+    color: white;
+    font-size: medium;
+}
+
+#footer p a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
