@@ -1,0 +1,96 @@
+body {
+    background-image: url(pharmacy.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+.box {
+    /*white box with text boxes and buttons on it*/
+    width: 880px;
+    height: 650px;
+    padding: 10px;
+    background-color: white;
+    margin: 0;
+    margin-left: 160px;
+    margin-top: 60px;
+    border-radius: 18px;
+}
+
+.title-name{
+    display: inline;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-left: 150px;
+    font-family: Impact,
+    Haettenschweiler,
+    'Arial Narrow Bold',
+    sans-serif;
+    color: rgb(4, 97, 147)
+}
+
+input,select{
+    display: inline;
+    margin-top: 45px;
+    margin-left: 290px;
+    width: 280px;
+    height: 30px;
+    border-radius: 7px;
+    border: solid;
+    border-color: rgb(4, 97, 147);
+    align-self: center;
+}
+
+button{
+    border-radius: 7px;
+    border: solid;
+    display: inline;
+    width: 85px;
+    height: 35px;
+    background-color: white;
+    border-color: rgb(4, 97, 147);
+    color: rgb(4, 97, 147);
+    transition: background-color 0.45s,
+    color 0.45s;
+    margin-left: 10px;
+    margin-top: -35px;
+
+}
+
+button:hover{
+    background-color: rgb(4, 97, 147);
+    color: white;
+}
+
+input[type=button], input[type=submit] {
+    border-radius: 7px;
+    border: solid;
+    display: inline;
+    width: 125px;
+    height: 35px;
+    background-color: white;
+    border-color: rgb(4, 97, 147);
+    color: rgb(4, 97, 147);
+    transition: background-color 0.45s, color 0.45s;
+    margin-left: 367px;
+    margin-top: 40px;
+}
+
+input[type=button],
+input[type=submit]:hover {
+    background-color: rgb(4, 97, 147);
+    color: white;
+}
+
+input[type=button],
+input[type=submit]:active{
+    opacity: 0.7;
+}
+
+
+
+
+
+
